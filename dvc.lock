@@ -6,7 +6,10 @@ stages:
     - path: data/train.csv
       md5: 80ccab65fb115cbad143dbbd2bcd5577
       size: 460676
+    - path: linear_model.ipynb
+      md5: 02b8d1b2500826d27f86f8172899d8a2
+      size: 992956
     outs:
     - path: metrics.json
-      md5: fdf5eb89abbf1efb5286e72b0207a4c1
+      md5: 1e8c98f844b32e86f3c32aacbbb718e1
       size: 81

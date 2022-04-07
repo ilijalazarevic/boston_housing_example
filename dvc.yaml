@@ -3,6 +3,7 @@ stages:
     cmd: papermill -k studio_test linear_model.ipynb linear_model.out.ipynb
     deps:
       - data/train.csv
+      - linear_model.ipynb
     metrics:
       - metrics.json:
           cache: False
