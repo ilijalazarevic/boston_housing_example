@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  train_model:
+    cmd: papermill -k studio_test linear_model.ipynb linear_model.out.ipynb
+    deps:
+    - path: data/train.csv
+      md5: 80ccab65fb115cbad143dbbd2bcd5577
+      size: 460676
+    outs:
+    - path: metrics.json
+      md5: fdf5eb89abbf1efb5286e72b0207a4c1
+      size: 81
